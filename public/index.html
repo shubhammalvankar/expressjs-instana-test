@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Posts</title>
+
+    <script>
+        (function(s,t,a,n){s[t]||(s[t]=a,n=s[a]=function(){n.q.push(arguments)},
+        n.q=[],n.v=2,n.l=1*new Date)})(window,"InstanaEumObject","ineum");
+      
+        ineum('reportingUrl', 'https://eum-magenta-saas.instana.rocks');
+        ineum('key', 'j_2aVR-dTuix20xIDqv0Bg');
+        ineum('trackSessions');
+      </script>
+      <script defer crossorigin="anonymous" src="https://eum-magenta-saas.instana.rocks/1.7.4/eum.min.js" 
+       integrity="sha384-kaH5ia7dc78hj/WSUrkk2W7GiSpw6VusNtc6UZ7HM4TusG25fJSwA8jwoVPDAVjG"></script>
+</head>
+
+<body>
+    <h1>Posts</h1>
+
+    <form id="add-post-form">
+        <label for="title">Title:</label><br />
+        <input type="text" id="title" name="title" /><br />
+        <button type="submit">Add Post</button>
+    </form>
+
+    <button id="get-posts-btn">Get Posts</button>
+    <div id="output"></div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
